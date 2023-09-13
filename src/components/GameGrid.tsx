@@ -23,7 +23,7 @@ const GameGrid = ({gameQuery}: Props) => {
           md: 2,
           lg: 3,
         }}
-        spacing={10}
+        spacing={6}
         padding="20px"
       >
         {error && <Text>{error}</Text>}
